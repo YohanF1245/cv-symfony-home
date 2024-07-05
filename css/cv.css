@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+nav{
+    z-index: 20;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position:fixed;
+    width: 100%;
+}
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+body{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+    padding: 0.5rem;
+    margin-right: 12rem;
+}
+li{
+    display:inline;
+
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size:4rem;
+    margin-top: 0;   
+}
+.center-main-title{
+    color:white;
+    text-shadow:0 0 4px black;
+    bottom:70px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: bold;
+    font-style: italic;
+    margin-left:auto;
+    width: 85%;
+}
+ul>li>a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.5em;
+    color:#FFB8B8;
+}
+.purple:hover{
+    color:#9B59B6;
+    transform: translateY(-10px);
+}
+.red:hover{
+    color:#E74C3C;
+    transform: translateY(-10px);
+}
+.green:hover{
+    color:#2ECC71;
+    transform: translateY(-10px);
+}
+.yellow:hover{
+    color:#F1C40F;
+    transform: translateY(-10px);
+}
+.anim{
+    transition: 250mx;
+}
+.blue:hover{
+    color:#3498DB;
+    transform: translateY(-10px);
+}
+.main-icons{
+    font-weight: bold;
+    font-size: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.parallax{
+position: relative;
+background-attachment: fixed; /* Fixe l'image pendant le scroll */
+background-size: cover; /* L'image prendra 100% de l'espace, quitte à la crop */
+background-position: center; /* Centre la position de l'image */
+background-repeat: no-repeat;
+background-image: url("../images/cv-section-1-bg.jpg");
+height: 100vh;
+}
+#section1{
+    background-color: white;
+    width: 80%;
+    margin-left: 10% ;
+}
+
+.intro{
+    width: 100%;
+}
+.photo-moi{
+    width: 100%;
+}
+.intro-left{
+    float: left;
+    width: 30%;
+    margin-right: 50px;
+    margin-left:10%;
+}
+.titre-intro{
+    clear:both;
+    font-size: 3rem;
+}
+.intro-text{
+    font-size: 1.5rem;
+    margin:10%;
+}
+.contact-button{
+    width: 100%;
+    clear:both;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 20%;
+    background-color: #2ECC71;
+    margin-bottom: 150px;
+    text-decoration: none;
+    padding:25px 50px;
+    border-radius: 50px;
+    color:white;
+    font-weight: 600;
+    text-align:center;
+}
+.contact-button:hover{
+    background-color: #3498DB;
+}
+.contact-button-wrapper{
+    display: flex;
+    justify-content: center;
+}
