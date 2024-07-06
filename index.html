@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="desktop">
         <ul>
             <li><a href="#top"><span class="mdi mdi-home-outline"></span></a></li>
             <li><a href="#section1">À PROPOS</a></li>
@@ -23,6 +23,26 @@
             <li><a href="https://github.com/YohanF1245" target="_blank"><span class="mdi mdi-github"></span></a></li>
         </ul>
     </nav>
+   
+    <nav id="mobile-nav" role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        <ul id="menu">
+            <ul>
+                <li><a href="#top">HOME</span></a></li>
+                <li><a href="#section1">À PROPOS</a></li>
+                <li><a href="#section2">COMPÉTENCES</a></li>
+                <li><a href="#section3">PARCOURS</a></li>
+                <li><a href="#section4">RÉALISTATIONS</a></li>
+                <li><a href="#section4">CONTACT</a></li>
+                <li><a href="https://github.com/YohanF1245" target="_blank">GITHUB</span></a></li>
+            </ul>
+        </ul>
+       </div>
+      </nav>
     <div id="top" class="parallax">
         <div class="center-main-title">
             <h1>Bonjour, je m'appelle Yohan et je suis</h1>
@@ -79,7 +99,7 @@
             </div>
         </div>
         <div class="contact-button-wrapper">
-            <a class="contact-button" href="#">Contactez-moi</a>
+            <a class="contact-button" href="#section4">Contactez-moi</a>
         </div>
     </section>
     <section id="section2">
@@ -430,6 +450,8 @@
     <footer>
         <p>&copy; 2024 Yohan Ferdin.<br>Tous droits réservés.</p>
     </footer>
+    
+    <script src="js/script.js" defer></script>
 </body>
 
 </html>
